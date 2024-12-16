@@ -1,0 +1,1 @@
+from ZonaPetsBackend.base_settings import *

@@ -1,4 +1,4 @@
-import zonapetsLogo from "../../../general/assets/zonapetslogo.png"
+import zonapetsLogo from "../../../generalPages/assets/zonapetslogo.png"
 
 export function NavForLogin() {
     return (

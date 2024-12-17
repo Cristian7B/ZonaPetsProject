@@ -5,9 +5,9 @@ import { ZonaPetsInfo } from "./ZonaPetsInfo"
 import { Mision } from "./Mision"
 import { Objetivos } from "./Objetivos"
 import { SwiperComp } from "./Swiper";
-import { Footer } from "../../../../general/components/Footer";
+import { Footer } from "../../../../generalPages/components/Footer";
 import "../AcercaDe.css"
-import { PrincipalNav } from "../../../../general/components/PrincipalNav";
+import { PrincipalNav } from "../../../../generalPages/components/PrincipalNav";
 export function AcercaDe() {
     return (
         <>

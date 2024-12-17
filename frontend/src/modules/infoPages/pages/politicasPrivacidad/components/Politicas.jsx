@@ -1,5 +1,5 @@
-import { Footer } from "../../../../general/components/Footer";
-import { PrincipalNav } from "../../../../general/components/PrincipalNav";
+import { Footer } from "../../../../generalPages/components/Footer";
+import { PrincipalNav } from "../../../../generalPages/components/PrincipalNav";
 import { privacyPolicyTerms } from "../utils/consts";
 import "../Politicas.css"
 

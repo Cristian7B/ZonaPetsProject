@@ -1,6 +1,6 @@
 import { Route } from "react-router-dom";
 import { MapaProvider } from "./MapaProvider";
-import { ControllerSteps } from "../../principal-pages/registrar/components/StepForm/ControllerSteps";
+import { ControllerSteps } from "../../principalPages/generalRegister/components/StepForm/ControllerSteps";
 
 export function MapsComponents() {
     return (

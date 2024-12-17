@@ -6,7 +6,7 @@ import iconLocation from "../static/assets/markerzonapets.png";
 import userMarkerIcon from "../static/assets/markerUser.png"; 
 import axios from "axios";
 
-import locateIcon from "../../../general/assets/locate-outline.svg"
+import locateIcon from "../../../generalPages/assets/locate-outline.svg"
 
 import "../Mapa.css";
 import { Filter } from "./Filter";
@@ -16,7 +16,7 @@ import { useFilters } from "../hooks/useFilters";
 import { useGeolocation } from "../hooks/useGeolocation2";
 import { useInfo } from "../hooks/useInfo";
 import { InfoPlace } from "./InfoPlace";
-import { PrincipalNav } from "../../../general/components/PrincipalNav";
+import { PrincipalNav } from "../../../generalPages/components/PrincipalNav";
 import { Loader } from "../../loginUser/components/Loader";
 
 export function Mapa() {

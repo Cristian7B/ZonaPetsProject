@@ -9,7 +9,7 @@ import { AlreadyLogged } from "./AlreadyLogged";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { LoginFromGoogle } from "./LoginFromGoogle";
 import { ButtonStyle } from "./ButtonStyle";
-import iconZonaPets from "../../../general/assets/zonapetslogo.png"
+import iconZonaPets from "../../../generalPages/assets/zonapetslogo.png"
 import iconPerson from "../static/assets/person-add-outline.svg"
 export function AccountLogin() {
     const [dataLogin, setDataLogin] = useState({

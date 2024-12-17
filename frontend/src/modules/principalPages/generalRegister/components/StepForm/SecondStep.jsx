@@ -1,7 +1,7 @@
 import { GoogleMap } from "@react-google-maps/api";
-import { center } from "../../../mapa/consts";
+import { center } from "../../../generalMap/consts";
 import { useEffect, useRef, useState } from "react";
-import userMarkerIcon from "../../../mapa/static/assets/markerUser.png";
+import userMarkerIcon from "../../../generalMap/static/assets/markerUser.png";
 import pinIcon from "../../static/assets/pin-outline.svg";
 
 export function SecondStep({ onLocationChange, userLocation, setUserLocation, setObjectLocation, objectLocation, setAuthOptions }) {

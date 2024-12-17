@@ -4,8 +4,8 @@ import closeIcon from "../static/assets/closeIcon.svg"
 import callIcon from "../static/assets/call-outline.svg"
 import tagIcon from "../static/assets/pricetag-outline.svg"
 import infoIcon from "../static/assets/help-outline.svg"
-import flagIcon from "../../../info-pages/pages/faq/static/assets/flag-outline.svg"
-import addIcon from "../../../general/assets/add-outline.svg"
+import flagIcon from "../../../infoPages/pages/faq/static/assets/flag-outline.svg"
+import addIcon from "../../../generalPages/assets/add-outline.svg"
 
 export function InfoPlace({nombre, latitud, longitud, tipoNegocio, telefono}) {
     const [displayDialog, setDisplayDialog] = useState({ display: "none" });

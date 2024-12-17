@@ -1,4 +1,4 @@
-import zonapetsLogo from "../../../general/assets/zonapetslogo.png"
+import zonapetsLogo from "../../../generalPages/assets/zonapetslogo.png"
 import templateMac from "../static/assets/loginTemplateImg.png"
 import iconLock from "../static/assets/lock-open-outline.svg"
 import backIcon from "../static/assets/chevron-back-outline.svg"
@@ -9,7 +9,7 @@ import { useEffect, useState } from "react"
 import axios from "axios"
 import { toast, Toaster } from "sonner"
 import { Loader } from "./Loader"
-import { PrincipalNav } from "../../../general/components/PrincipalNav"
+import { PrincipalNav } from "../../../generalPages/components/PrincipalNav"
 
 export function InicialLandingLogin() {
     const {dataUser, setToken, setDataUser, loading, setLoading} = useAuth()

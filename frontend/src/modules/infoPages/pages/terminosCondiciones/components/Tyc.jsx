@@ -1,7 +1,7 @@
-import { PrincipalNav } from "../../../../general/components/PrincipalNav";
+import { PrincipalNav } from "../../../../generalPages/components/PrincipalNav";
 import { termsAndConditions } from "../utils/consts";
 import "../Tyc.css"
-import { Footer } from "../../../../general/components/Footer";
+import { Footer } from "../../../../generalPages/components/Footer";
 
 export function Tyc() {
     return (

@@ -1,6 +1,6 @@
 import { CardContact } from "./CardContact";
 import { infoCardContext } from "../consts";
-import { Footer } from "../../../../general/components/Footer";
+import { Footer } from "../../../../../generalPages/components/Footer";
 import "../Contacto.css"
 export function Contacto() {
     return (

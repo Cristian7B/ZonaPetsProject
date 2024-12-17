@@ -2,7 +2,7 @@ import logoTiktok from '../static/assets/logo-tiktok.svg';
 import logoInstagram from '../static/assets/logo-instagram.svg';
 import logoFacebook from '../static/assets/logo-facebook.svg';
 import mailIcon from "../static/assets/mail-outline.svg"
-import logoZonaPets from "../../general/assets/zonapetslogo.png"
+import logoZonaPets from "../../generalPages/assets/zonapetslogo.png"
 export function Footer() {
     return (
         <footer>

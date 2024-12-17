@@ -1,4 +1,4 @@
-import { PrincipalNav } from "../../../../general/components/PrincipalNav";
+import { PrincipalNav } from "../../../../generalPages/components/PrincipalNav";
 import { LeftSide } from "./LeftSide";
 import { RightSide } from "./RightSide";
 

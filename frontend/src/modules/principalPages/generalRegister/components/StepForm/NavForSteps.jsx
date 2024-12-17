@@ -1,7 +1,7 @@
 import logoSvg from "../../static/assets/logo.svg";
 import questionIcon from "../../static/assets/help-outline.svg"
 import "../../Registrar.css"
-import logoIcon from "../../../../general/assets/zonapetslogo.png"
+import logoIcon from "../../../../generalPages/assets/zonapetslogo.png"
 
 
 export function NavForSteps() {

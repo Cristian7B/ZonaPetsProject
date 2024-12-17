@@ -1,4 +1,4 @@
-import { Construction } from "../../../general/components/Construction";
+import { Construction } from "../../../generalPages/components/Construction";
 
 export function PremiumLanding() {
     return (

@@ -1,6 +1,6 @@
 import flagIcon from "../static/assets/flag-outline.svg"
 import plusIcon from "../static/assets/add-outline.svg"
-import privacityIcon from "../../../../general/assets/lock-open-outline.svg"
+import privacityIcon from "../../../../generalPages/assets/lock-open-outline.svg"
 import premiumCardIcon from "../static/assets/card-outline.svg"
 import { Link } from "react-router-dom"
 

@@ -8,7 +8,7 @@ import { AlreadyLogged } from "./AlreadyLogged";
 import { LoginFromGoogle } from "./LoginFromGoogle";
 import { ButtonStyle } from "./ButtonStyle";
 import { GoogleOAuthProvider } from "@react-oauth/google";
-import iconZonaPets from "../../../general/assets/zonapetslogo.png"
+import iconZonaPets from "../../../generalPages/assets/zonapetslogo.png"
 import iconAccount from "../static/assets/person-circle-outline.svg"
 import { useRegister } from "../hooks/useRegister";
 import { DataUserContext } from "../context/DataUserContext";

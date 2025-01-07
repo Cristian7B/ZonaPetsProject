@@ -15,7 +15,7 @@ class ProcesarFormularioView(APIView):
         if serializer.is_valid():
             serializer.save()
             return Response({"mensaje": "¡La empresa ha sido registrada!"}, status=status.HTTP_201_CREATED)
-        return Response({"error": serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
+        return Response({"error": "No se ha podido registrar la empresa"}, status=status.HTTP_400_BAD_REQUEST)
 
 class ProcesarFormularioEmpresaView(APIView):
     def post(self, request):
@@ -23,7 +23,7 @@ class ProcesarFormularioEmpresaView(APIView):
         if serializer.is_valid():
             serializer.save()
             return Response({"mensaje": "¡La empresa ha sido registrada!"}, status=status.HTTP_201_CREATED)
-        return Response({"error": serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
+        return Response({"error": "No se ha podido registrar la empresa"}, status=status.HTTP_400_BAD_REQUEST)
 
 class UbicacionListView(APIView):
     def get(self, request):

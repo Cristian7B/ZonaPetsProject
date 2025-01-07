@@ -1,7 +1,7 @@
 from django.db import models, IntegrityError
 
 from django.contrib.auth.base_user import BaseUserManager
-from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin
+from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, Group, Permission
 from django.contrib.auth.models import BaseUserManager
 
 from django.core.validators import validate_email
@@ -53,6 +53,18 @@ class AppUser(AbstractBaseUser, PermissionsMixin):
     foto = models.CharField(blank=True, null=True)
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']
+
+    groups = models.ManyToManyField(
+        Group,
+        related_name='appuser_groups',  
+        blank=True
+    )
+    user_permissions = models.ManyToManyField(
+        Permission,
+        related_name='appuser_permissions',  
+        blank=True
+    )
+
     
     objects = AppUserManager()
 

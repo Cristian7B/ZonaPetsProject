@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 
-DATABASE_SERVICE_URL = 'http://database-service-url/' 
+DATABASE_SERVICE_URL = 'http://localhost:8080/' 
 
 class UbicacionList(APIView):
     def get(self, request):

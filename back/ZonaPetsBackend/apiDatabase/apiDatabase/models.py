@@ -78,7 +78,7 @@ class AppUser(AbstractBaseUser, PermissionsMixin):
 
 tipos_de_negocio = [
     ("Hoteles", "Hoteles"), 
-    ("Restaurantes ", "Restaurantes "),
+    ("Restaurantes", "Restaurantes"),
     ("Tiendas de mascotas", "Tiendas de mascotas"),
     ("Parques para mascotas", "Parques para mascotas"),
     ("Servicios de paseo de perros", "Servicios de paseo de perros"),

@@ -1,26 +1,29 @@
-version: "3.9"
 services:
-  apiGateway:
+  apigateway:
     build:
       context: ./apiGateway
+    image: zonapetsbackend-apigateway
     ports:
       - "8000:8000"
     depends_on:
-      - apiLocations
-      - apiRegister
-      - apiLogin
-  apiLocations:
+      - apilocations
+      - apiregister
+      - apilogin
+  apilocations:
     build:
       context: ./apiLocations
+    image: zonapetsbackend-apilocations
     ports:
       - "8001:8000"
-  apiRegister:
+  apiregister:
     build:
       context: ./apiRegister
+    image: zonapetsbackend-apiregister
     ports:
       - "8002:8000"
-  apiLogin:
+  apilogin:
     build:
       context: ./apiLogin
+    image: zonapetsbackend-apilogin
     ports:
       - "8003:8000"

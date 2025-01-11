@@ -47,9 +47,6 @@ class GetUserInfo(APIView):
 
         return Response(response.json(), status=status.HTTP_200_OK)
 
-
-
-
 class UpdateUserInfo(APIView):
     permission_classes = (IsAuthenticated,)
     authentication_classes = (JWTAuthentication,)

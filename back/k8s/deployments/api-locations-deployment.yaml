@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-locations
+  namespace: default
+spec:
+  replicas: 2  
+  selector:
+    matchLabels:
+      app: api-locations
+  template:
+    metadata:
+      labels:
+        app: api-locations
+    spec:
+      containers:
+      - name: api-locations
+        image: cristian7b/zonapets/api-locations:latest  
+        ports:
+        - containerPort: 5000

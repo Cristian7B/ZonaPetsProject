@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-register
+  namespace: default
+spec:
+  replicas: 2  
+  selector:
+    matchLabels:
+      app: api-register
+  template:
+    metadata:
+      labels:
+        app: api-register
+    spec:
+      containers:
+      - name: api-register
+        image: cristian7b/zonapets/api-register:latest  
+        ports:
+        - containerPort: 5001

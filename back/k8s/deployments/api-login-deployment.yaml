@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-login
+  namespace: default
+spec:
+  replicas: 2 
+  selector:
+    matchLabels:
+      app: api-login
+  template:
+    metadata:
+      labels:
+        app: api-login
+    spec:
+      containers:
+      - name: api-login
+        image: cristian7b/zonapets/api-login:latest  
+        ports:
+        - containerPort: 5002
